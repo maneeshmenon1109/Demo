@@ -9,7 +9,7 @@ public class LoginController {
 
     @GetMapping("/login")
     public String simpleLogin(String name, Model model) {
-        model.addAttribute("name", name);
+        //model.addAttribute("name", name);
         return "login";
     }
 
